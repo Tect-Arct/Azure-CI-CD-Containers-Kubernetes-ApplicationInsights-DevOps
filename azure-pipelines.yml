@@ -51,7 +51,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'SanoobkCICDContainersDemo02-3358.default'
+    environment: 'acrdemoenv'
     strategy:
       runOnce:
         deploy:
