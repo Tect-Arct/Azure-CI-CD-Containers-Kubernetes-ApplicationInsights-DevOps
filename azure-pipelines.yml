@@ -11,12 +11,12 @@ resources:
 variables:
 
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '<added by pipeline creation. Removed from this file>'
+  dockerRegistryServiceConnection: 'acrdemosc'
   imageRepository: 'sanoobkcicdcontainersdemo'
   containerRegistry: 'acrdemo777.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: '<added by pipeline creation. Removed from this file>'
+  imagePullSecret: 'Admin@123456'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
