@@ -4,8 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <UserSecretsId></UserSecretsId>
-    <ApplicationInsightsResourceId>/subscriptions/<add id here>/resourcegroups/CICDDemo01/providers/microsoft.insights/components/CICDDemoAppInsights</ApplicationInsightsResourceId>
-    <ApplicationInsightsAnnotationResourceId>/subscriptions/<add id here>/resourceGroups/CICDDemo01/providers/microsoft.insights/components/CICDDemoAppInsights</ApplicationInsightsAnnotationResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/6d82e056-c69d-4d8d-8e50-cba26a3e53e9/resourcegroups/CICDDemo01/providers/microsoft.insights/components/CICDDemoAppInsights</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/6d82e056-c69d-4d8d-8e50-cba26a3e53e9/resourceGroups/CICDDemo01/providers/microsoft.insights/components/CICDDemoAppInsights</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>
