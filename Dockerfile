@@ -1,9 +1,9 @@
-FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
+FROM mcr.microsoft.com/dotnet/sdk AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM microsoft/dotnet:2.1-sdk AS build
+FROM mcr.microsoft.com/dotnet/sdk AS build
 WORKDIR /src
 COPY ["CICDContainers-Demo02/CICDContainers-Demo02.csproj", "CICDContainers-Demo02/"]
 RUN dotnet restore "CICDContainers-Demo02/CICDContainers-Demo02.csproj"
