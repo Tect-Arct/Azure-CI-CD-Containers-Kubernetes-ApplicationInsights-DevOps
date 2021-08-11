@@ -1,9 +1,9 @@
-FROM mcr.microsoft.com/dotnet/nightly/sdk:3.1 AS base
+FROM mcr.microsoft.com/dotnet/aspnet AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/nightly/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/aspnet AS build
 WORKDIR /src
 COPY ["CICDContainers-Demo02/CICDContainers-Demo02.csproj", "CICDContainers-Demo02/"]
 RUN dotnet restore "CICDContainers-Demo02/CICDContainers-Demo02.csproj"
